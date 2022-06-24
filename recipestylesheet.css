@@ -1,0 +1,157 @@
+body {
+    background-color: #E8F7F9;
+}
+
+h1 {
+    color: #10506C;
+    font-family: Papyrus, fantasy;
+    text-align: center;
+    margin-top: 5%;
+}
+
+h2 {
+    color: #10506C;
+    font-family: Papyrus, fantasy;
+
+}
+
+h3 {
+    color: #000000;
+    font-family: Papyrus, fantasy;
+    text-align: center;
+}
+
+p {
+    color: #000000;
+    font-family: Arial, Helvectica, sans-serif;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.linavigationbar {
+    float: left;
+    display: inline;
+    width: 18%;
+    color: #000000;
+    font-family: Arial, Helvectica, sans-serif;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+ol {
+    color: #000000;
+    font-family: Arial, Helvectica, sans-serif;
+}
+
+.logo {
+    float: left;
+    width: 25px;
+    height: 25px;
+    transition: width 4s, height 4s;
+}
+
+.logo:hover {
+    width: 75px;
+    height: 75px;
+}
+
+.navigationbar {
+    position: fixed;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    height: 4%;
+    background-color: #EDEDED;
+}
+
+.fajitaimage {
+    width: 250px;
+    Height: 300px;
+    box-shadow: 2px 2px 2px 3px rgb(53, 64, 70);
+}
+
+.howtovideo {
+    width: 500px;
+    height: 300px;
+    box-shadow: 2px 2px 2px 2px #b7bfc0;
+}
+
+table {
+    border: 1px solid #10506C;
+    margin-bottom: 3%;
+}
+
+th,
+td {
+    border: 1px solid #10506C;
+    font-family: Arial, Helvectica, sans-serif;
+    text-align: left;
+}
+
+#ingridenttablequantity tr td:first-child {
+    font-weight: bold;
+}
+
+.ingridenttablehover tr:hover {
+    background-color: #8aa8b8;
+    cursor: pointer;
+}
+
+#footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    font-family: Arial, Helvectica, sans-serif;
+    font-size: 12px;
+    background-color: #EDEDED;
+    margin-top: 3%;
+}
+
+.gridbodycontainer {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: auto;
+    width: 100%;
+}
+
+.gridtableinstructions {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px;
+}
+
+.ingridenttablegrid {
+    display: grid;
+    justify-content: left;
+    align-items: end;
+}
+
+.gridprep {
+    display: grid;
+    justify-content: end;
+    align-self: center;
+}
+
+.videoHeader{
+    display: grid;
+    justify-items: center;
+}
+ 
+.gridbodycontainercontact {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+}
+.gridbodycontainerform {
+    display: grid;
+    justify-content: center;
+
+}
